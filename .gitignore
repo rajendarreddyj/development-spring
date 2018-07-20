@@ -118,3 +118,8 @@ freeline_project_description.json
 
 # versions plugin
 pom.xml.versionsBackup
+
+# hsqldb
+*.db.properties
+*.db.script
+*.db.lck

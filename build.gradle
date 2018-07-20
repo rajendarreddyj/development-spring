@@ -47,8 +47,10 @@ allprojects {
 		cglibVersion = "2.2"
 		objenesisVersion = "1.2"
 	    hsqldbVersion="1.8.0.7"
-	    tomcatVersion = "7.0.59"
-	    tomcatPluginVersion="2.2.5"
+		grettyPluginVersion ='2.0.0'
+		tomcatPluginVersion='2.5'
+		tomcatVersion='9.0.10'
+		tomcatJuliLogVersion='9.0.0.M6'
 	}
 }
 
@@ -58,7 +60,6 @@ subprojects {
 	apply plugin: 'java'
 	apply plugin: 'idea'
 	apply plugin: 'eclipse'
-	apply plugin: 'maven'
 	group = rootProject.group
 	version = rootProject.version
 	sourceCompatibility = "${javaVersion}"
@@ -140,5 +141,5 @@ subprojects {
 
 // Running 'gradle wrapper' will generate gradlew - Getting gradle wrapper working and using it will save you a lot of pain.
 task wrapper(type: Wrapper) {
-	gradleVersion = '3.3'
+	gradleVersion = '4.9'
 }
