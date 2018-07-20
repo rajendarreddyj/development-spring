@@ -15,7 +15,7 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'spring-gradle-projects'
+rootProject.name = 'development-spring-gradle'
 include ':spring-data-mongodb'
 include ':spring-batch-listener'
 include ':spring-aop-logging'
