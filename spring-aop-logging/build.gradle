@@ -18,7 +18,10 @@ dependencies {
     compile("org.aspectj:aspectjrt:${aspectjVersion}")
     compile("org.aspectj:aspectjweaver:${aspectjVersion}")
     compile("org.springframework:spring-web:${springFrameworkVersion}") {
-	exclude(module: "commons-logging")
+	    exclude(module: "commons-logging")
+    }
+    compile("org.springframework:spring-context:${springFrameworkVersion}") {
+        exclude(module: "commons-logging")
     }
     providedCompile("javax.servlet:javax.servlet-api:${javaxServletVersion}")
     

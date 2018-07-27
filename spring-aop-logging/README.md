@@ -8,7 +8,7 @@ $ gradle TomcatRun
 
 or
 
-$ gralde jettyRun
+$ gradle jettyRun
 
 Fire up this url in your browser: http://localhost:8080/spring-aop-logging/
 
